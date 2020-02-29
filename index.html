@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html class="w-full h-full" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+  <title>User States of Experience - @jagreehal</title>
+
+  <meta name="description" content="User States of Experience slides - @jagreehal" />
+  <meta name="author" content="Jag Reehal" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="css/reveal.css" />
+  <link rel="stylesheet" href="css/theme.css" />
+  <link rel="stylesheet" href="lib/css/code.css" />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="antialiased font-body text-gray-300 relative h-full">
+  <a href="https://twitter.com/jagreehal"
+    class="text-blue-500 text-base absolute z-10 bottom-0 left-0 m-3">@JagReehal</a>
+  <div class="reveal">
+    <div class="slides">
+      <section class="flex flex-col justify-center items-center bg-gray-900">
+        <h1 class="mb-16 text-center">
+          User
+          <span class="text-red-500">States</span> of experience
+        </h1>
+        <div>
+          <a href="https://twitter.com/jagreehal"
+            class="text-5xl text-center text-blue-600 no-underline font-bold">Jagvinder
+            Singh Reehal</a>
+        </div>
+      </section>
+
+      <section class="flex flex-col justify-center items-center" data-background="images/imageedit_1_2395381717.png">
+        <div class="leading-relaxed text-5xl font-semibold">
+          As a contractor I get to work with different companies, solving
+          different problems working with <span class="text-red-500">designers</span>,
+          <span class="text-orange-500">user
+            experience</span>,
+          <span class="text-yellow-500">developers</span>, <span class="text-green-500">testers</span>
+          and <span class="text-blue-500">product owners</span> to achieve the same goal
+        </div>
+      </section>
+
+      <section class="flex flex-col justify-center items-center" data-background="images/imageedit_6_6134321736.png">
+        <div class="leading-relaxed text-5xl font-bold">
+          Collaboration impacts of the <span class="text-red-500">speed</span>, <span
+            class="text-orange-500">cost</span>
+          and
+          <span class="text-yellow-500">quality</span> of the features that make up that goal
+        </div>
+      </section>
+
+      <section class="bg-red-600">
+        <h2>
+          An all to common scenario
+        </h2>
+        <ul>
+          <li>
+            an agency/designer creates designs for a web application
+          </li>
+          <li class="fragment">
+            some of the designs show what it would look like on a
+            mobile, tablet and desktop
+          </li>
+          <li class="fragment">
+            ...all of the designs were for a single state</li>
+        </ul>
+        <img class="fragment w-80" src="images/search results.png" />
+      </section>
+      <section class="flex flex-col justify-center items-center bg-gray-900">
+        <h2 class="text-5xl">
+          why is this a problem?
+        </h2>
+      </section>
+      <section class="font-bold" data-background="images/imageedit_10_3473938967.png">
+        <h2>
+          States for a search results page
+        </h2>
+        <div class="flex justify-center mt-8">
+          <ul class="w-5/12 mr-12 text-green-500">
+            <li class="fragment">0 results</li>
+            <li class="fragment">1 result</li>
+            <li class="fragment">5 results</li>
+            <li class="fragment">21 results</li>
+            <li class="fragment">2048 results</li>
+          </ul>
+          <ul class="w-5/12 mr-12">
+            <li class="fragment text-red-500">Error</li>
+            <li class="fragment text-yellow-500">Loading</li>
+          </ul>
+        </div>
+      </section>
+      <section class="flex flex-col justify-center items-center bg-gray-900">
+        <h2 class="text-5xl">
+          State first design?
+        </h2>
+        <div class="leading-relaxed text-5xl font-semibold">
+          Reduces unknown unknowns that cost <span class="text-red-500">time</span>, <span
+            class="text-orange-500">fluency</span>, and <span class="text-yellow-500">focus</span> all of which impacts
+          <span class="text-green-500">motivation</span>
+        </div>
+      </section>
+      <section class="bg-gray-900">
+        <h2>This is nothing new...</h2>
+        <div class="text-5xl font-bold mt-20 leading-relaxed italic">
+          "but what if we could <span class="text-red-500">see</span>, <span class="text-yellow-500">change</span> and
+          <span class="text-orange-500">share</span> these states?"
+        </div>
+      </section>
+      <section class="flex flex-col justify-center items-center bg-gray-900">
+        <h2 class="text-5xl">
+          The web is just
+        </h2>
+        <div class="text-6xl mt-8 uppercase">
+          <span class="text-red-500 font-bold">State</span>+<span class="text-orange-500 font-bold">Action</span>=<span
+            class="text-yellow-500 font-bold">New State</span>
+        </div>
+      </section>
+      <section class="flex flex-col justify-center items-center bg-gray-900">
+        <div class="text-5xl font-bold leading-relaxed">
+          Thank you ✌️
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <script src="js/reveal.js"></script>
+
+  <script>
+    Reveal.initialize({
+      center: false,
+      history: true,
+      dependencies: [{
+        src: "plugin/highlight/highlight.js",
+        async: true,
+        callback: function () {
+          hljs.initHighlightingOnLoad();
+        }
+      }]
+    });
+  </script>
+</body>
+
+</html>
