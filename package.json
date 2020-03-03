@@ -1,0 +1,25 @@
+{
+  "name": "user-states-of-experience",
+  "version": "1.0.0",
+  "description": "Slides for my User States of Experience talk",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d public",
+    "start": "cross-env NODE_ENV=development concurrently \"postcss public/css/_theme.css -o public/css/theme.css --watch\"  \"live-server --port=3001 public\"",
+    "build": "cross-env NODE_ENV=production postcss public/css/_theme.css -o public/css/theme.css"
+  },
+  "author": "Jagvinder Singh Reehal",
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "concurrently": "^5.1.0",
+    "cross-env": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.2.0",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.0",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^1.19.1",
+    "tailwindcss": "^1.2.0"
+  }
+}
